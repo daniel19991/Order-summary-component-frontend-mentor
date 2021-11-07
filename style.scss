@@ -1,0 +1,41 @@
+@import "variables";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+ 
+}
+
+body{
+    width: 1440px;
+    min-height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#main{
+    width: 450px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first_section{
+    height: 195px;
+}
+
+.second_section{
+    width: 354px;
+    height: 100px;
+    background-color: $paleblue;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
