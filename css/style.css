@@ -34,6 +34,7 @@ body {
           flex-direction: column;
   background: url(/images/pattern-background-desktop.svg) no-repeat center top;
   background-color: #e0e8ff;
+  margin: 102px 450px;
 }
 
 body p {
@@ -54,17 +55,17 @@ body p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 102px 450px;
   background-color: white;
 }
 
 .first_section {
-  margin: 55px 80px 25px 80px;
+  margin: 54px 80px 25px 80px;
   text-align: center;
 }
 
 .first_section h1 {
   font-weight: 900;
+  color: #1f2f56;
 }
 
 .first_section p {
@@ -85,10 +86,56 @@ body p {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-right: 48px;
+  margin-left: 48px;
+  border-radius: 15px;
 }
 
 .second_section img {
-  margin: 25px;
+  margin: 24px;
+}
+
+.second_section h2, .second_section p, .second_section a {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 700;
+}
+
+.second_section span {
+  color: #1f2f56;
+  font-weight: 900;
+}
+
+.plan {
+  width: 95px;
+}
+
+.change {
+  width: 55px;
+  margin-left: 80px;
+  margin-right: 24px;
+}
+
+.payment_box {
+  -webkit-box-shadow: 0px 63px 49px -41px rgba(230, 155, 16, 0.151);
+          box-shadow: 0px 63px 49px -41px rgba(230, 155, 16, 0.151);
+}
+
+.payment {
+  width: 354px;
+  height: 50px;
+  margin-top: 30px;
+  background-color: #3829e0;
+  color: white;
+  font-weight: 900;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.cancel {
+  margin: 35px 0 55px 0;
 }
 
 .attribution {
