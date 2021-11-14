@@ -8,37 +8,64 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 body{
     width: 1440px;
     min-height: 900px;
-    display: flex;
-    justify-content: center;
+    display: flex; 
     align-items: center;
     flex-direction: column;
-    background: url(/images/pattern-background-desktop.svg) no-repeat center ;
+    background: url(/images/pattern-background-desktop.svg) no-repeat center top;
+    background-color: $paleblue;
+
+    p{
+        font-weight: 500;
+        color: $desaturatedblue;
+    }
 }
 
 #main{
     width: 450px;
     height: 700px;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 102px 450px;
+    background-color: white;
 }
 
 .first_section{
-    height: 195px;
+    margin:55px 80px 25px 80px;
+    text-align: center;
+    
+
+    h1{
+        font-weight: 900;
+    }
+    
+    p{
+        margin-top: 25px;
+    }
 }
 
 .second_section{
     width: 354px;
     height: 100px;
-    background-color: $paleblue;
+    background-color: $verypaleblue;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    img{
+        margin:25px;
+    }
 }
 
+.third_section{
 
+
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
